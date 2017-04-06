@@ -77,7 +77,7 @@ p {
 ## Typography
 -----------------------------------------------*/
 .title-main {
-	font-weight: bold;
+	font-weight: 700;
 }
 a,
 .link-primary:hover,
@@ -391,13 +391,13 @@ hr {
 	padding: 15px 20px;
 }
 .mod-icon-box {
+	overflow: hidden;
 	position: relative;
 	top: -75px;
-	overflow: hidden;
-	margin: 0 auto -60px;
-	padding: 15px 0 0 15px;
 	width: 125px;
 	height: 125px;
+	margin: 0 auto -60px;
+	padding: 15px 0 0 15px;
 	border-radius: 100px;
 }
 blockquote,
@@ -473,15 +473,15 @@ blockquote p,
 #ninja_forms_field_2_div_wrap,
 #ninja_forms_field_3_div_wrap {
 	float: left;
-	padding: 5px 15px;
 	width: 50%;
+	padding: 5px 15px;
 }
 #ninja_forms_field_39_div_wrap,
 #ninja_forms_field_4_div_wrap,
 .home .submit-wrap {
 	float: right;
-	padding: 5px 15px;
 	width: 50%;
+	padding: 5px 15px;
 }
 .submit-wrap {
 	float: none;
@@ -611,8 +611,8 @@ body.mce-content-body {
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
-	padding: 15px 0;
 	height: auto;
+	padding: 15px 0;
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
@@ -624,15 +624,15 @@ body.mce-content-body {
 /* set the default gridblock styles */
 .gridblock {
 	overflow: hidden;
-	margin: 0;
 	width: 100%;
+	margin: 0;
 }
 .gridblock > .container-fluid > .row,
 .gridblock > .container > .row {
 	position: relative;
 	padding: 10em ;
-	background: orange;
 	color: #fff;
+	background: orange;
 	text-align: center;
 }
 /** Common gridblock styles **/
@@ -659,7 +659,7 @@ body.mce-content-body {
 }
 
 .gridblock-section-triangle::after {
-	bottom: -50px;
 	z-index: 10;
+	bottom: -50px;
 	background: inherit;
 }
